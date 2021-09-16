@@ -1,0 +1,7 @@
+body { background-color: dimgrey;}
+
+header, main, footer {
+    background-color: white;
+    min-height: 100px;
+    margin: 10px;
+}
