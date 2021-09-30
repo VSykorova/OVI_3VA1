@@ -1,7 +1,57 @@
-body { background-color: dimgrey;}
+@font-face {
+    font-family: wicked;
+    src: url(fonty/Wicked\ Tricker.ttf);
+}
+
+body { 
+    background-color: dimgrey;
+}
 
 header, main, footer {
     background-color: white;
-    min-height: 100px;
     margin: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    font-size: 2em;
+    font-family: wicked;
+}
+
+nav ul {
+    display: flex;
+    align-items: center; /* horizontální zarovnání */
+    justify-items: center; /* vertikální zarovnání */
+    width: 100%;
+    justify-content: center; /* vycentruje všechno na střed */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block; /* zbaví položky teček */
+    flex-grow: 1; /* roztáhne položky do volného prostoru */
+    text-align: center;
+    font-size: 18pt;
+    font-family: wicked;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    color: white;
+    background-color: black;
+    text-shadow: 2px 2px 2px #FF0000;
+}
+
+header:hover {
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 2px #FF0000;
+}
+
+.row {
+    margin: -20px;
 }
