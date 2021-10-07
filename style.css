@@ -55,3 +55,37 @@ header:hover {
 .row {
     margin: -20px;
 }
+
+#carousel img {
+    width: 100%;
+    margin-top: -300px;
+}
+
+#carousel {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+#img1 {
+    display: block;
+}
+
+#img2, #img3 {
+    display: none;
+}
+
+.sipka {
+    position: absolute;
+    top: 80px;
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+    width: 100px;
+}
+
+#sipkaL {
+    left: 20px;
+}
+#sipkaP {
+    right: 20px;
+}
